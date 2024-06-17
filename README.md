@@ -1,7 +1,7 @@
 # MultiCamCows2024 - A multi-view image dataset for indoor Holstein-Friesian cow (re-)identification
 
 ## Authors
-Phoenix Yu(Junjie Yu); Neill Campbell; Tilo Burghardt; Andrew Drowsey
+Phoenix Yu (Junjie Yu); Tilo Burghardt; Andrew Dowsey, Neill Campbell
 
 ## Overview
 MultiCamCows2024 is a multi-view image set for individual identification of Holstein-Friesian cows first available. Captured by three different cameras over seven days on a working farm, the dataset comprises 101,329 images from 90 unique cows. Pre-trained a species identifier based on RetinaNet, raw tracklets of cow individuals were extracted from monitored videos. After noises filtering and tracklet merging across each camera, both supervised and self-supervised learning frameworks were employed for individual cow identification. Utilising the dataset, it can be concluded that perfect tracklets with extra supervision signals can be used to build an automatic cow identifier with no human input. Furthermore, the self-supervised framework not only improves identification accuracy but also lays the groundwork for addressing open-set challenges in future research endeavours and opportunities for accurate individual cow identification, with implications for livestock management, behaviour analysis, and agricultural monitoring. The GitHub repository for our individual cow identifiers is also available at [here](https://github.com/Phoenix4582/CowIDentifier).

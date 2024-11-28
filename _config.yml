@@ -1,5 +1,5 @@
 title: MultiCamCows2024
 # logo
 description: MultiCamCows2024 is a web user interface for linking the paper, the model and the datasets 
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-merlot
